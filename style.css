@@ -54,15 +54,14 @@ body{
     padding-bottom: 15px;
     padding-top: 7px;
     padding-left: 100px;
-  }
-  #Dropdown {
+}
+#Dropdown {
     background: none;
     color: white;
     border: none;
-  }
-  .button > input:nth-child(1) {
+}
+.button > input:nth-child(1) {
     padding-bottom: 8px;
     padding-top: 8px;
 
-  }
-  
+}
