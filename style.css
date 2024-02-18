@@ -1,62 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-size: 24px;
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 25px 10px 25px;
-    background-color: #1f2227;
+body {
+  font-size: 24px;
 }
 
-.navholi{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px 10px 25px;
+  background-color: #1f2227;
 }
-.navholi a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+
+.navholi {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.navholi>a:nth-child(3){
-    color: #989a9c;
+.navholi a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.navholi > a:nth-child(3) {
+  color: #989a9c;
 }
 #Dropdown {
-    background: none;
-    color: white;
+  background: none;
+  color: white;
+  border: none;
+}
+.drop {
+  font-weight: 500;
+  font-family: "ariel", sans-serif;
+  color: #989a9c;
+  margin-right: 100px;
+  white-space: nowrap;
+}
+.form {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.search input {
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+.button input {
+  font-size: 20px;
+  background: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: green;
+  color: green;
+}
+
+.hamburger {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    justify-content: flex-start;
+    background: #1f2227;
+    border-radius: 20px;
+    padding: 10px;
     border: none;
+    margin: 1vh;
+    cursor: pointer;
+  }
+  .hamburger:hover {
+    background-color: #989a9c;
+  }
 }
-.drop{
-    font-weight: 500;
-    font-family: 'ariel', sans-serif;
-    color: #989a9c;
-    margin-right: 100px;
-}
-.form{
-    width: 50%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-.search input{
-    margin-right: 10px;
-    padding: 10px 20px;
-
-
-}
-.button input{
-    font-size: 20px;
-    background: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border-color: green;
-    color: green;
-}
-
